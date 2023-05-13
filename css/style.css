@@ -942,7 +942,8 @@ h3.my-profession {
     }
 }
 
-@media (max-width:620px) {
+@media (max-width:620px) 
+{
 
     .portfolio .portfolio-item,
     .service .service-item {
@@ -961,4 +962,9 @@ h3.my-profession {
         flex: 0 0 70%;
         max-width: 70%;
     }
-}  
+} 
+
+video {
+    width: 100%;
+    height: auto;
+  }
